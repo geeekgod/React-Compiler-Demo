@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+body {
+  @apply bg-gray-900 text-white border-white;
+}
+
+.card {
+  @apply flex flex-col p-4 border border-gray-400 rounded-xl h-64 w-96 gap-4;
+}
